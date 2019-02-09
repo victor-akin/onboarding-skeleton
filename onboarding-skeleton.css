@@ -1,0 +1,66 @@
+.onboarding-skel{
+    padding: 10px;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+.onboarding-tip{
+    position: relative;
+    box-sizing: border-box;
+}
+.onboarding-shade{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 500%;
+}
+.onboarding-container{
+    position: absolute;
+    left: 160px;
+    top: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.onboarding-text{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    box-sizing: border-box;
+}
+.onboarding-arrow{
+    /* background: linear-gradient(45deg,white 50%, black 90%); */
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: -1;
+    
+    /* arrow at right */
+    /* left: 94px; */
+    /* transform: rotate(40deg); */
+    
+    /* arrow at left */
+    right: 94px;
+    transform: rotate(230deg)
+    
+    /* arrow at top */
+    /* bottom: 94px; */
+    /* transform: rotate(315deg); */
+    
+    /* arrow at bottom */
+    /* top: 94px; */
+    /* transform: rotate(134deg); */
+
+}
